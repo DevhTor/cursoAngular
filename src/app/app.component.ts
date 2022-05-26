@@ -1,10 +1,12 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'; // Import the Component decorator
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+
+@Component({ // Decorator
+  selector: 'app-root', // Selector for the HTML element
+  templateUrl: './app.component.html',  // HTML template
+  styleUrls: ['./app.component.css'] // CSS styles
 })
-export class AppComponent {
-  title = 'cursoAngular';
+
+export class AppComponent { // Export the class
+  title = 'cursoAngular'; // Title of the app
 }

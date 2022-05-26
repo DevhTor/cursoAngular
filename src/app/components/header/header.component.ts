@@ -1,15 +1,16 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'; // Import the Component decorator and OnInit interface
 
-@Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+@Component({  // Decorator
+  selector: 'app-header', // Selector for the HTML element
+  templateUrl: './header.component.html', // HTML template
+  styleUrls: ['./header.component.css'] // CSS styles
 })
-export class HeaderComponent implements OnInit {
 
-  constructor() { }
+export class HeaderComponent implements OnInit { // export the class
 
-  ngOnInit(): void {
+  constructor() { } // Constructor
+
+  ngOnInit(): void { // Initialize the component
   }
 
 }
